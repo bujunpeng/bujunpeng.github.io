@@ -5,7 +5,7 @@
 //the images are stored on the server serially. So we can use a loop to generate the HTML.
 var images = "", count = 50;
 for(var i = 1; i <= count; i++)
-    images += '<img src="http://thecodeplayer.com/u/uifaces/'+i+'.jpg" />';
+    images += '<img src="pic/'+i+'.jpg" />';
 
 //appending the images to .grid
 $(".grid").append(images);
